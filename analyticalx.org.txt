@@ -71,4 +71,4 @@ state.analyticalx.org.	1	IN	A	104.248.155.82
 studio.analyticalx.org.	1	IN	A	128.199.109.68
 tourism.analyticalx.org.	1	IN	A	128.199.123.242
 www.analyticalx.org.	1	IN	A	220.158.234.214
-Hellojjkkkdksjka
+Hello
