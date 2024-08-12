@@ -1,0 +1,73 @@
+;;
+;; Domain:     analyticalx.org.
+;; Exported:   2024-01-19 04:25:13
+;;
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;;
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;;
+;; http://www.isc.org/
+;;
+;; And RFC 1035:
+;;
+;; http://www.ietf.org/rfc/rfc1035.txt
+;;
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;;
+;; Use at your own risk.
+;; SOA Record
+analyticalx.org	3600	IN	SOA	itzel.ns.cloudflare.com. dns.cloudflare.com. 2045730491 10000 2400 604800 3600
+
+;; NS Records
+analyticalx.org.	86400	IN	NS	itzel.ns.cloudflare.com.
+analyticalx.org.	86400	IN	NS	lennon.ns.cloudflare.com.
+
+;; A Records
+analyticalx.org.	1	IN	A	128.199.109.68
+apps.analyticalx.org.	1	IN	A	128.199.109.68
+authz.analyticalx.org.	1	IN	A	104.248.155.82
+cms.analyticalx.org.	1	IN	A	220.158.234.214
+cms-keycloak.analyticalx.org.	1	IN	A	220.158.234.214
+data-viewer.analyticalx.org.	1	IN	A	104.248.155.82
+dbfims.analyticalx.org.	1	IN	A	220.158.234.214
+dev.analyticalx.org.	1	IN	A	128.199.109.68
+dlm.analyticalx.org.	1	IN	A	104.248.155.82
+edu.analyticalx.org.	1	IN	A	128.199.109.68
+ee.analyticalx.org.	1	IN	A	128.199.123.242
+fims.analyticalx.org.	1	IN	A	128.199.123.242
+fims-keycloak.analyticalx.org.	1	IN	A	220.158.234.214
+health.analyticalx.org.	1	IN	A	104.248.155.82
+ifredi.analyticalx.org.	1	IN	A	128.199.123.242
+kc.analyticalx.org.	1	IN	A	128.199.123.242
+keycloak.analyticalx.org.	1	IN	A	104.248.155.82
+kf.analyticalx.org.	1	IN	A	128.199.123.242
+kobo.analyticalx.org.	1	IN	A	220.158.234.214
+kobolara.analyticalx.org.	1	IN	A	220.158.234.214
+labelstudio.analyticalx.org.	1	IN	A	128.199.123.242
+mafredi.analyticalx.org.	1	IN	A	128.199.123.242
+metabase.analyticalx.org.	1	IN	A	128.199.123.242
+nifi.analyticalx.org.	1	IN	A	128.199.109.68
+nis1.analyticalx.org.	1	IN	A	104.248.155.82
+nis2.analyticalx.org.	1	IN	A	104.248.155.82
+nis3.analyticalx.org.	1	IN	A	104.248.155.82
+nis4.analyticalx.org.	1	IN	A	104.248.155.82
+niskh1.analyticalx.org.	1	IN	A	104.248.155.82
+oproject.analyticalx.org.	1	IN	A	128.199.109.68
+phpmyadmin.analyticalx.org.	1	IN	A	128.199.123.242
+project.analyticalx.org.	1	IN	A	128.199.109.68
+proxy.analyticalx.org.	1	IN	A	128.199.123.242
+search.analyticalx.org.	1	IN	A	104.248.155.82
+share.analyticalx.org.	1	IN	A	104.248.155.82
+solr.analyticalx.org.	1	IN	A	104.248.155.82
+state.analyticalx.org.	1	IN	A	104.248.155.82
+studio.analyticalx.org.	1	IN	A	128.199.109.68
+tourism.analyticalx.org.	1	IN	A	128.199.123.242
+www.analyticalx.org.	1	IN	A	220.158.234.214
